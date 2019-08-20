@@ -1,0 +1,3 @@
+---
+
+default: -f pretty --no-source --format json --out reports/report.json
