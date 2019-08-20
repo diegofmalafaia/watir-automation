@@ -9,6 +9,10 @@ class Site < BrowserContainer
     @loginpage = LoginPage.new(@browser)
   end
 
+  def homepage
+    @homepage = HomePage.new(@browser)
+  end
+
   def close
     @browser.close
   end
