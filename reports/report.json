@@ -1,0 +1,84 @@
+[
+  {
+    "uri": "features/specs/cadastro.feature",
+    "id": "cadastro",
+    "keyword": "Funcionalidade",
+    "name": "Cadastro",
+    "description": "    Como usuario que poder realizar meu cadastro para posteriormente efetuar minhas compras.",
+    "line": 3,
+    "elements": [
+      {
+        "id": "cadastro;não-será-possivel-criar-uma-conta-utilizando-um-email-já-cadastrado",
+        "keyword": "Cenário",
+        "name": "Não será possivel criar uma conta utilizando um email já cadastrado",
+        "description": "",
+        "line": 7,
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Dado ",
+            "name": "que estou na pagina de login",
+            "line": 8,
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:1"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 19315292000
+            },
+            "status": "passed",
+            "duration": 19315292000
+          },
+          {
+            "keyword": "Quando ",
+            "name": "informo um email já cadastrado",
+            "line": 9,
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:5"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5293906000
+            },
+            "status": "passed",
+            "duration": 5293906000
+          },
+          {
+            "keyword": "Então ",
+            "name": "devo visualizar uma mensagem de erro informando que o email já esta em uso",
+            "line": 10,
+            "match": {
+              "location": "features/step_definitions/cadastro_steps.rb:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2357850000
+            },
+            "status": "passed",
+            "duration": 2357850000
+          }
+        ],
+        "after": [
+          {
+            "match": {
+              "location": "features/support/hooks.rb:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 191012000
+            },
+            "status": "passed",
+            "duration": 191012000
+          }
+        ],
+        "before": [
+
+        ],
+        "status": "passed",
+        "duration": 27158060000
+      }
+    ],
+    "status": "working",
+    "duration": 27158060000
+  }
+]
